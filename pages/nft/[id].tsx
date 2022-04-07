@@ -44,7 +44,7 @@ const NFTdDropPage = ({collection}:Props) => {
       <div className="flex flex-1 flex-col p-12 lg:col-span-6">
         {/* header  */}
         <header className="flex items-center justify-between">
-          <Link href={`/`}>
+          <Link href={`/`} passHref>
           <h1 className="w-52 cursor-pointer text-xl font-extralight sm:w-88">
             The <span className="font-extrabold">PAPAFAM </span> {` `} NFT
             Market place
@@ -61,7 +61,7 @@ const NFTdDropPage = ({collection}:Props) => {
         <hr className="my-2 border" />
 
         {collection.address && (
-            <p className="text-center text-sm text-rose-400" >You're logged in with wallet {collection.address}</p>
+            <p className="text-center text-sm text-rose-400" >Youre logged in with wallet {collection.address}</p>
         )}
 
         {/* body  */}
@@ -75,7 +75,7 @@ const NFTdDropPage = ({collection}:Props) => {
             {collection.title}
           </h1>
 
-          <p className="pt-2 text-xl text-green-500">13 / 21 NFT's claimed</p>
+          <p className="pt-2 text-xl text-green-500">13 / 21 NFTs claimed</p>
         </div>
         {/* button  */}
 
