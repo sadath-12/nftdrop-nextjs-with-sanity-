@@ -6,7 +6,7 @@ import { Collection } from "../../typings";
 
 
 interface Props{
-  collection:Collection[]
+  collection:Collection
 }
 
 const NFTdDropPage = ({collection}:Props) => {
