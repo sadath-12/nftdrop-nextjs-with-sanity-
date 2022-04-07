@@ -22,7 +22,7 @@ const Home =({  collections}:Props)=> {
 </Head>
 
 <h1 className="mb-10 text-4xl font-extralight  ">
-            The <span className="font-extrabold">PAPAFAM </span> {` `} NFT
+            The <span className="font-extrabold">SADATH </span> {` `} NFT
             Market place
           </h1>
 
